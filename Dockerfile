@@ -11,8 +11,8 @@ RUN apt-get update && apt-get install -y git && \
 WORKDIR /app
 
 # Clone source code (use --depth 1 to get only latest code)
-RUN git clone --depth 1 https://github.com/tabixio/tabix.git . && \
-    git checkout master
+RUN git clone --depth 1 https://github.com/Ales999/TripleData.git . && \
+    git checkout dev
 
 # Force node_modules mode
 RUN echo 'nodeLinker: node-modules' > .yarnrc.yml && \

@@ -1,2 +1,3 @@
-docker buildx build . -t tabix:v22.05.17
-docker run -d --restart=always --name tabix_for_clickhouse-22.05.17 -p 80:80 tabix:v22.05.17
+docker buildx build . -t tabix-dev:v22.05.17
+echo Start Image:
+echo docker run -d --restart=always --name tabix_for_clickhouse-dev -p 80:80 tabix-dev:v22.05.17
