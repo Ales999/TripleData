@@ -267,7 +267,7 @@ class DashboardView extends React.Component<RoutedProps> {
               alt=""
               style={{ height: '40px', marginLeft: '30px', cursor: 'pointer' }}
               onClick={() => {
-                window.open('https://triplelab.xyz/platform/console/overview');
+                window.open('https://192.168.1.2/platform/console/overview');
               }}
             />
           </div>

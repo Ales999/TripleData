@@ -27,7 +27,7 @@ export abstract class BaseConnectionModel<T extends Connection>
 
   @required()
   @observable
-  connectionUrl = 'http://18.116.237.30:8123';
+  connectionUrl = 'http://192.168.1.2:8123';
 
   @required()
   @observable
@@ -57,7 +57,7 @@ export class DirectConnectionModel
 
   constructor({
     connectionName = 'Triplelab',
-    connectionUrl = 'http://18.116.237.30:8123',
+    connectionUrl = 'http://192.168.1.2:8123',
     username = 'default',
     password = '',
     mode = ConnectionMode.normal,
